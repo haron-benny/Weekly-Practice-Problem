@@ -1,10 +1,17 @@
-// Write a Java program to print "Hello, Welcome to Java Programming".
+// Problem Statement:
+// Write a program to find the age of Harry if the birth year is 2000.
+// Assume the Current Year is 2024.
 
 public class Level1_1 {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello, Welcome to Java Programming!");
+        int birthYear = 2000;
+        int currentYear = 2024;
+
+        int age = currentYear - birthYear;
+
+        System.out.println("Harry's age in 2024 is " + age);
 
     }
 
